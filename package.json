@@ -1,0 +1,16 @@
+{
+  "name": "ltp-tkcore-epa-sms",
+  "version": "1.0.0",
+  "description": "sms",
+  "main": "index.js",
+  "repository": "https://github.com/ltphuc093/ltp-tkcore-epa-sms.git",
+  "author": "le thanh phuc",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "webpack --config webpack.dev.js",
+    "start": "node ./index.js "
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
